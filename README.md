@@ -34,7 +34,7 @@ So, let me handle it for you.
   - Do step 1
   - crontab -e, add this line
     ```
-      0 9 * * 1,2,3,4 open_list
+      0 9 * * 1,2,3,4 /bin/bash -l -c "open_list"
     ```
 
     *you don't need to do it on Saturday and Sunday, right?*
