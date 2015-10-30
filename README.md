@@ -24,20 +24,21 @@ So, let me handle it for you.
 
   Same for `chrome_tabs.list`
 
-- **Advance**
-  1. To start this script as `open_list`, you can call this line
-    ```bash
-      ln -s `pwd`/open_list.sh /usr/local/bin/open_list
+#Advance
+
+1. To start this script as `open_list`, you can call this line
+  ```
+    ln -s `pwd`/open_list.sh /usr/local/bin/open_list
+  ```
+- Set up a cronjob to run it automatically, follow this instruction
+  - Do step 1
+  - crontab -e, add this line
     ```
-  - Set up a cronjob to run it automatically, follow this instruction
-    - Do step 1
-    - crontab -e, add this line
-      ```
-        0 9 * * 1,2,3,4 open_list
-      ```
+      0 9 * * 1,2,3,4 open_list
+    ```
 
-      *you don't need to do it on Saturday and Sunday, right?*
-    -  Change 9(AM) to any time
+    *you don't need to do it on Saturday and Sunday, right?*
+  -  Change 9(AM) to any time
 
-- Uninstall
-  Remove the folder, plus `rm /user/local/bin/open_list` to remove the symlink.
+#Uninstall
+Remove the folder, plus `rm /user/local/bin/open_list` to remove the symlink.
