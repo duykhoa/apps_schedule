@@ -9,6 +9,8 @@ So, let me handle it for you.
 
 - Clone it
 
+- Rename **apps.list.sample** and **chrome_tabs.list.sample** to **apps.list* * and **chrome_tabs.list**
+
 - Change the apps.list: one app a line, if the app's name has space, please add the '\' before the space.
 
   E.g.
@@ -22,7 +24,7 @@ So, let me handle it for you.
     MEGAsync
   ```
 
-  Same for `chrome_tabs.list`
+  The same for `chrome_tabs.list`
 
 - **Advance**
   1. To start this script as `open_list`, you can call this line
