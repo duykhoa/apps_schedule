@@ -34,7 +34,7 @@ So, let me handle it for you.
   ```
 - Set up a cronjob to run it automatically, follow this instruction
   - Do step 1
-  - crontab -e, add this line
+  - open Cron jobs by this command `crontab -e`, add this line
     ```
       0 9 * * 1,2,3,4 /bin/bash -l -c "open_list"
     ```
@@ -44,3 +44,5 @@ So, let me handle it for you.
 
 #Uninstall
 Remove the folder, plus `rm /user/local/bin/open_list` to remove the symlink.
+
+**Hope it useful for you, give me some PRs to improve it** :heart_eyes: :heart_eyes: :heart_eyes:
