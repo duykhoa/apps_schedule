@@ -9,7 +9,7 @@ So, let me handle it for you.
 
 - Clone it
 
-- Rename **apps.list.sample** and **chrome_tabs.list.sample** to **apps.list* * and **chrome_tabs.list**
+- Rename **apps.list.sample** and **chrome_tabs.list.sample** to **apps.list** and **chrome_tabs.list**
 
 - Change the apps.list: one app a line, if the app's name has space, please add the '\' before the space.
 
